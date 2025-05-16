@@ -25,6 +25,18 @@
 		icon: 'HomeOutlined',
 	},
 	{
+		path: '/student-admin',
+		name: 'Quản lý sinh viên',
+		component: './StudentAd/StudentAdmin',
+		icon: 'TeamOutlined',
+	},
+	{
+		path: '/device-admin',
+		name: 'Quản lý thiết bị',
+		component: './DeviceAdmin/DeviceAdmin',
+		icon: 'DatabaseOutlined',
+	},
+	{
 		path: '/gioi-thieu',
 		name: 'About',
 		component: './TienIch/GioiThieu',
