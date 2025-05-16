@@ -1,4 +1,4 @@
-declare namespace DeviceAdmin {
+declare module DeviceAdmin {
 	export interface Record {
 		id: number;
 		deviceName: string;

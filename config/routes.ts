@@ -43,10 +43,10 @@
 		hideInMenu: true,
 	},
 	{
-		path: '/random-user',
-		name: 'RandomUser',
-		component: './RandomUser',
-		icon: 'ArrowsAltOutlined',
+		path: '/borrowing-admin',
+		name: 'Quản lý mượn trả',
+		component: './Borrow/BorrowAdmin',
+		icon: 'ScheduleOutlined',
 	},
 
 	// DANH MUC HE THONG
@@ -87,6 +87,7 @@
 	},
 	{
 		path: '/',
+		redirect: '/dashboard',
 	},
 	{
 		path: '/403',
